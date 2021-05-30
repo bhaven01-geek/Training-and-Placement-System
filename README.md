@@ -1,1 +1,0 @@
-# Training-and-Placement-System
