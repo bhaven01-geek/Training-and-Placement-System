@@ -1,0 +1,104 @@
+@import 'https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css';
+body{
+	font-family: sans-serif;
+	background-image:url("images/bg6.jpg");
+	background-size: cover;
+}
+.login-pg{
+	background-color:rgb(32, 35, 46);
+	position:absolute;
+	top:50%;
+	left:50%;
+	transform:translate(-50%,-50%); 
+	color: aliceblue;
+	border: 1px solid grey;
+	border-radius: 1px;
+	width: 300px;
+	height: 380px;
+	padding:40px;
+	
+}
+.avatar{
+	position: absolute;
+	top: -62px;
+	left: calc(50% - 52px);  
+	border: 1px solid black;  
+	border-radius: 50%;
+	
+	
+}
+h1{	
+	color: rgb(255, 255, 255);
+	font-family: monospace;
+	text-align: center;
+	text-decoration: underline;
+	/*text-transform:uppercase;*/
+	font-weight:300; 
+	padding: 4px;
+	margin: 1px 1px; 
+	margin-bottom: 40px;
+}
+p{
+	color: #fff;;
+	margin:2px 0px;
+
+
+}
+.usnm,.pd{
+	margin-bottom: 7px;
+	margin-top: 7px;
+}
+.usnm input ,.pd input{
+	background:none;
+	border:none;
+	
+}
+.usnm input[type="text"],.pd input[type="password"]
+{
+	font-size: 18px;
+	margin:2px 0px;
+	width: 100%;
+	border-bottom: 1px solid rgb(255, 255, 255);
+	outline: none;
+	overflow:hidden;
+	padding: 10px 0px;
+	color: white;
+	margin-bottom: 10px;
+}
+/*.usnm input[type="text"]:hover,.pd input[type="password"]:hover{
+	width:200px;
+	color: white;
+}*/
+.submit
+{
+	margin: 2px 0px;
+	
+}
+.submit input[type="Submit"]
+{
+	background:transparent;
+	text-align: center;
+	color: white;
+	text-align: center;
+	margin: 10px auto;
+	border: 2px solid rgb(255, 255, 255);
+	width: 90%;
+	outline: none;
+	overflow:hidden;
+	padding: 14px 14px;
+	border-radius:24px;
+	transition: 0.25s;
+	cursor: pointer;
+	margin-left: 15px;
+	margin-bottom: 20px;
+
+}
+.submit input[type="Submit"]:hover
+{
+background:rgb(255, 255, 255);
+color: black;
+border: 2px solid black;
+}
+a{
+	color: rgb(153, 107, 99);
+}
