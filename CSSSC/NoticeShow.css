@@ -1,0 +1,52 @@
+
+.n-box{
+	width: 60%;
+	height: 100%;
+	border: 2px solid black;
+	margin:0 auto;
+	z-index: 100;
+}
+.n-tboard
+{
+	height: 100px;
+	width: 100%;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #1b1d26;
+	color: white;
+	font-size: 30px;
+	margin-bottom: 20px;
+}
+.notice
+{
+	z-index: 10;
+	height: 150px;
+	width: 100%;
+	border-bottom: 2px solid black ;
+	
+}
+
+.n-date
+{
+	margin:10px;
+	margin-left: 20px;
+	font-size: 20px;
+	width: fit-content;
+	font-size: 24px;
+}
+.n-title
+{
+	margin:20px;
+	margin-left: 60px;
+	font-size:30px;
+	font-weight: bold;
+	z-index: 23;
+}
+.n-title:hover
+{
+	cursor: pointer;
+	color:grey;
+}
+

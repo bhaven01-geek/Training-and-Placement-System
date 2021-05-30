@@ -1,0 +1,88 @@
+@import 'https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css';
+body{
+	font-family: sans-serif;
+	background-image:url("images\ \(11\).jpeg");
+	background-size: cover;
+}
+.login-pg{
+	background-color:#2a6f68;/*#2727ce*/
+	position:absolute;
+	top:50%;
+	left:50%;
+	transform:translate(-50%,-50%); 
+	color: aliceblue;
+	border: 1px solid grey;
+	border-radius: 1px;
+	width: 300px;
+	height: 380px;
+	padding:40px;
+}
+.avatar{
+	position: absolute;
+	top: -32px;
+	left: calc(50% - 32px);    /*aprox  width/2  - size of img  = 180 - 31*/
+}
+h1{	
+	color: #000;
+	font-family: monospace;
+	text-align: center;
+	text-decoration: underline;
+	/*text-transform:uppercase;*/
+	font-weight:300; 
+	padding: 4px;
+	margin: 1px 1px; 
+}
+p{
+	color: #fff;;
+	margin:2px 0px;
+
+
+}
+.usnm,.pd{
+	margin-bottom: 7px;
+	margin-top: 7px;
+}
+.usnm input ,.pd input{
+	background:none;
+	border:none;
+	
+}
+.usnm input[type="text"],.pd input[type="password"]
+{
+	font-size: 18px;
+	margin:2px 0px;
+	width: 100%;
+	border-bottom: 1px solid black;
+	outline: none;
+	overflow:hidden;
+	padding: 10px 0px;
+}
+/*.usnm input[type="text"]:hover,.pd input[type="password"]:hover{
+	width:200px;
+	color: white;
+}*/
+.submit
+{
+	margin: 2px 0px;
+}
+.submit input[type="Submit"]
+{
+	background:grey;
+	text-align: center;
+	color: white;
+	text-align: center;
+	margin: 10px auto;
+	border: 1px solid black;
+	width: 90%;
+	outline: none;
+	overflow:hidden;
+	padding: 14px 14px;
+	border-radius:24px;
+	transition: 0.25s;
+	cursor: pointer;
+}
+.submit input[type="Submit"]:hover
+{
+background:grey;
+color: black;
+}
